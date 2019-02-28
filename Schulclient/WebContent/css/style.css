@@ -1,30 +1,30 @@
-.lpTileRed>.sapMTileCntFtrTxt {
+.TileRed>.sapMTileCntFtrTxt {
 	color: red;
 }
 
-.lpTileGreen>.sapMTileCntFtrTxt {
+.TileGreen>.sapMTileCntFtrTxt {
 	color: green;
 }
 
-.lptitle {
+.title {
 	font-size: x-large;
 	font-weight: bold;
 }
 
-.lpSmallText {
+.SmallText {
 	font-size: small;
 	font-weight: bold;
 }
 
-.lpBold>.sapMListTbl, .sapMText {
+.Bold>.sapMListTbl, .sapMText {
 	font-weight: bold;
 }
 
-.lpBigText, .lpBigText>.sapMRbBLabel, .lpBigText>.sapMLabel {
+.BigText, .BigText>.sapMRbBLabel, .BigText>.sapMLabel {
 	font-size: large;
 }
 
-.lpHide, .lpHide>.sapMITBSep, .lpHide>.sapMITBSepLine, .sapMITBSepLine {
+.Hide, .Hide>.sapMITBSep, .Hide>.sapMITBSepLine, .sapMITBSepLine {
 	visibility: hidden;
 }
 
@@ -46,16 +46,16 @@
 	border-bottom: 1px solid transparent;
 }
 
-.lpbackgroundColor>.sapMTB {
+.backgroundColor>.sapMTB {
 	border-bottom: 1px solid transparent;
 }
 
-.lpbackgroundColor>.sapMBtnTransparent, .lpbackgroundColor>.sapMBtnHoverable
+.backgroundColor>.sapMBtnTransparent, .backgroundColor>.sapMBtnHoverable
 	{
 	background-color: transparent;
 }
 
-.lpbackgroundColor>.sapMPanelBGTranslucent
+.backgroundColor>.sapMPanelBGTranslucent
 .sapMPanelContent
 .sapMPanelExpandablePart {
 	background-color: transparent;
@@ -71,6 +71,6 @@
 	background-color: red;
 }
 
-.lpBackground {
+.Background {
 	background-color: white;
 } */
