@@ -1,0 +1,30 @@
+<mvc:View controllerName="dk.controller.Main" xmlns="sap.m"
+	xmlns:core="sap.ui.core" xmlns:tnt="sap.tnt"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Page title="Titel" showNavButton="false">
+		<customHeader>
+			<tnt:ToolHeader>
+				<Bar>
+					<contentLeft>
+						<Text class="lptitle" text="{i18n>appTitle}" />
+					</contentLeft>
+					<contentMiddle>
+						<Text class="appTitle" text="{i18n>appDescription}" />
+					</contentMiddle>
+					<contentRight>
+					</contentRight>
+				</Bar>
+			</tnt:ToolHeader>
+		</customHeader>
+
+		<content>
+			<mvc:XMLView viewName="dk.view.MainContent" />
+		</content>
+		<footer>
+			<Toolbar>
+				<Label
+					text="Version 0.0.1" />
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

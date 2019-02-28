@@ -1,0 +1,76 @@
+.lpTileRed>.sapMTileCntFtrTxt {
+	color: red;
+}
+
+.lpTileGreen>.sapMTileCntFtrTxt {
+	color: green;
+}
+
+.lptitle {
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.lpSmallText {
+	font-size: small;
+	font-weight: bold;
+}
+
+.lpBold>.sapMListTbl, .sapMText {
+	font-weight: bold;
+}
+
+.lpBigText, .lpBigText>.sapMRbBLabel, .lpBigText>.sapMLabel {
+	font-size: large;
+}
+
+.lpHide, .lpHide>.sapMITBSep, .lpHide>.sapMITBSepLine, .sapMITBSepLine {
+	visibility: hidden;
+}
+
+.sapMITBHorizontal.sapMITBFilter {
+	width: 30%;
+	font-stretch: semi-condensed;
+}
+
+.sapMITBHead {
+	width: 100%;
+}
+
+.lpsapMListHdr>.sapMListHdr {
+	border-bottom: transparent;
+}
+
+.sapMPanelContent: {
+	background-color: transparent;
+	border-bottom: 1px solid transparent;
+}
+
+.lpbackgroundColor>.sapMTB {
+	border-bottom: 1px solid transparent;
+}
+
+.lpbackgroundColor>.sapMBtnTransparent, .lpbackgroundColor>.sapMBtnHoverable
+	{
+	background-color: transparent;
+}
+
+.lpbackgroundColor>.sapMPanelBGTranslucent
+.sapMPanelContent
+.sapMPanelExpandablePart {
+	background-color: transparent;
+	border-bottom: 1px solid transparent;
+}
+/* 
+.sapMPanelContent {
+	min-height: 100%;
+}
+
+.customizedTile>.sapMPanel .sapMPanelContent {
+	min-height: 100%;
+	background-color: red;
+}
+
+.lpBackground {
+	background-color: white;
+} */

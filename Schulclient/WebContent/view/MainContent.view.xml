@@ -1,0 +1,38 @@
+<mvc:View controllerName="dk.controller.MainContent"
+	xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:tnt="sap.tnt" class="sapUiSizeCompact"
+	xmlns:semantic="sap.m.semantic" xmlns:layout="sap.ui.layout"
+	xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" xmlns="sap.uxap"
+	xmlns:m="sap.m" height="100%">
+	<tnt:ToolPage id="toolPage">
+		<tnt:header>
+			<tnt:ToolHeader>
+			</tnt:ToolHeader>
+		</tnt:header>
+		<tnt:sideContent>
+		</tnt:sideContent>
+		<tnt:mainContents>
+			<ObjectPageLayout enableLazyLoading="false">
+				<sections>
+					<ObjectPageSection>
+						<subSections>
+							<ObjectPageSubSection>
+								<blocks>
+									<m:NavContainer id="pageContainer">
+										<m:pages>
+											<m:ScrollContainer id="START"
+												horizontal="false" vertical="true" height="100%">
+												<core:Fragment
+													fragmentName="dk.view.startcontent" type="XML" />
+											</m:ScrollContainer>
+										</m:pages>
+									</m:NavContainer>
+								</blocks>
+							</ObjectPageSubSection>
+						</subSections>
+					</ObjectPageSection>
+				</sections>
+			</ObjectPageLayout>
+		</tnt:mainContents>
+	</tnt:ToolPage>
+</mvc:View>
